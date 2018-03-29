@@ -11,7 +11,15 @@ package praktek01;
  */
 public class MahasiswaAksi {
     public static void main(String[] args) {
-        Mahasiswa Rama = new Mahasiswa(){
-        }
+        Mahasiswa Rama = new Mahasiswa();
+            
+            
+        Rama.nama="Muhammad Noor Ramadhan";
+        Rama.kelas="4F";
+        Rama.NPM="16630404";
+        Rama.jurusan="FTI";
+        Rama.semester="semester 4";
+        Rama.IPK=3.4;
+        
     }
 }
